@@ -1,633 +1,67 @@
 
-
-
 <!DOCTYPE html>
-<html id="">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=1024">
-    <title>Услуги приходящего системного администратора в Москве</title>
-
-    <meta name="description" content="Услуги системного администратора: обслуживание компьютеров, серверов, офисной техники. Включено все, что нужно, лучшая стоимость!">
-    
-    <link rel="icon" type="image/png" href="favicon.png">
-
-    <!--[if lt IE 9]>
-        <script src="js/html5shiv.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/jcarousel/skins/tango/skin.css">
-    <link rel="stylesheet" href="js/jquery.arcticmodal-0.3/jquery.arcticmodal-0.3.css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600,700,800,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/style.css">
-
-    
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<title></title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="style.css" rel="stylesheet">
 </head>
+
 <body>
-<header>
-    <div class="wrapper">
-        <div class="logo">
-            <a href="#"><img src="img/logo-black.png" width="418" height="56" alt="Услуги приходящего системного администратора"></a>
-        </div>
 
-        <div class="quick-links">
-            <a href="#услуги" data-scroll-to>Услуги</a>
-            <a href="#стоимость" data-scroll-to>Стоимость</a>
-            <a data-modal="#callbackForm" href="#callbackForm" data-reachLinkCallback>Задать вопрос</a>
-        </div>
+<div class="wrapper">
 
-        <div class="contacts-block">
-            <div class="contacts-block-phone">
-                +7 (495) 280-00-50
-            </div>
-            <div class="contacts-block-callback">
-                <a data-modal="#callbackForm" href="#callbackForm" data-reachLinkCallback><span>заказать звонок</span></a>
-            </div>
-        </div>
-    </div>
-</header>
-<div class="header-slider">
-    <div class="wrapper">
-        <h1>
-            <span class="title-1">Услуги приходящего</span> <br/>
-            <span class="title-2">системного администратора</span> <br/>
-            <span class="title-3">в Москве и Московской области</span>
-        </h1>
+	<header class="header">
+		<div class="logo">
+		<img src="img/logo1.png">
+		</div>
 
-        <div class="calculator" id="calculator-form">
-            <h3 class="calculator-title">Калькулятор</h3>
-            <span class="calculator-subtitle">узнай стоимость услуг администратора</span>
-            <table>
-                <tr>
-                    <td>
-                        Количество <b>компьютеров</b>
-                    </td>
-                    <td>
-                        <input type="number" min="0" max="50"  placeholder="0" value="" autocomplete="off" id="calculator-computers" pattern="\d*" />
-                    </td>
-                <tr>
-                    <td>
-                        Количество <b>серверов</b>
-                    </td>
-                    <td>
-                        <input type="number" min="0" max="50"  placeholder="0" value="" autocomplete="off" id="calculator-servers" pattern="\d*" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Единиц <b>офисной техники</b>
-                    </td>
-                    <td>
-                        <input type="number" min="0" max="50" placeholder="0" value="" autocomplete="off" id="calculator-printers" pattern="\d*" />
-                    </td>
-                </tr>
-            </table>
-            <div class="calculator-summary">
-                Стоимость обслуживания в месяц
-                <span class="calculator-summary-value">
-                    <span id="calculator-summary-value">0</span> руб
-                </span>
-            </div>
-        </div>
-    </div>
-</div>
+			<div class="menu-wrapper">
+				<ul class="menu">
+				<li><a href="">Услуги</a></li>
+				<li><a href="">Стоимость</a></li>
+				<li><a href="">Как мы работаем</a></li>
+				<li><a href="">Гарантии</a></li>
+				</ul>
+			</div>
 
-<div class="phone-specialist" data-scroll-animate="fadeIn">
-    <h2>Запросите расчет</h2>
-    <h3>Стоимости ИТ-обслуживания</h3>
+				<div class="aaaaa">
+					<a href="">Контакты</a>
+				</div>
+				<div class="bbbbb">
 
-    <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" data-form-validate="true">
-        <input type="hidden" name="oid" value="00Db0000000e4RT">
-        <input type="hidden" name="retURL" value="http://xn----8sbancubdaf0bnelbqmcpuc4cyfxg.xn--p1ai/?success=y">
-        <input type="hidden" id="lead_source" name="lead_source" value="приходящий-администратор.рф" />
+				</div>
 
-        <input class="icon-person" type="text" name="first_name" required placeholder="Имя" />
-        <input class="icon-phone" data-masked-input="+7 (999) 999-99-99" type="text" name="mobile" required placeholder="Телефон" />
-        <input class="icon-email" type="email" name="email" required placeholder="Электронная почта" />
-        <input type="hidden" name="description"/>
-        <input type="submit" value="Отправить" class="button" data-reachLeadClick />
-    </form>
-</div>
-<div class="warranty-block">
-    <div class="wrapper">
-        <h2>
-            Мы <span class="c-dark-orange">гарантируем</span><br>
-            Время реакции <span class="c-dark-orange">в договоре</span>
-        </h2>
 
-        <div class="warranty-block-wrapper">
-            <div class="row" data-scroll-animate="fadeIn">
-                <div class="warranty-block-item icon icon-car">
-                    <span>Выезд</span>
-                    <h3>2 часа</h3>
-                </div>
-                <div class="warranty-block-item icon icon-email">
-                    <span>Ответ на письмо</span>
-                    <h3>1 час</h3>
-                </div>
-            </div>
+	</header><!-- .header-->
 
-            <div class="row" data-scroll-animate="fadeIn">
-                <div class="warranty-block-item icon icon-connection multiply">
-                    <span>Удаленное подключение</span>
-                    <h3>30 минут</h3>
-                </div>
-                <div class="warranty-block-item icon icon-phone">
-                    <span>Телефонный звонок</span>
-                    <h3>15 минут</h3>
-                </div>
-            </div>
-        </div>
-    </div><!-- /.wrapper -->
-</div><!-- /.warranty-block -->
+	<main class="content">
+		<div class="main_img">
+			<img src="img/serverroom.jpg">
 
-<div class="services-block">
-    <div class="wrapper">
-        <a name="услуги"></a>
-        <a name="услуги_приходящего_системного_администратора">
-            <h2>
-                Наш <span>приходящий</span><br>
-                <span>системный администратор</span><br>
-                выполняет все, что вам нужно
-            </h2>
-            <div class="hide">
-            	<p>Приходящий системный администратор выполняет обслуживание компьютеров, серверного оборудования, офисной техники. Взаимодействует с поставщиками услуг интернет, телефонии, хостинга. Курирует закупку и ремонт компьютерного оборудования. Организует удаленный доступ, резервное копирование данных, обрабатывает ИТ-поручения руководства.</p>
-            </div>
-        </a>
-        <div class="services-block-wrapper">
-            <div class="services-block-item">
-                <div class="icon" style="background-image: url('img/icon-round-servers.png')"></div>
-                <h3>Администрирование серверов и сетевого оборудования</h3>
-                <p>Администрирование серверов Windows, Linux, FreeBSD. Администрирование серверного оборудования всех известных производителей. <a class="readmore" href="#cat-1" data-cat="true">></a></p>
-                <div class="hide" id="cat-1">
-                    <p>Успешность компании &mdash; это не только дисциплина и порядок на рабочих столах персонала. Порядок нужен и на серверах компании. Именно поэтому наш приходящий системный администратор необходим вашему успешному бизнесу. Наши специалисты занимаются администрированием серверов Windows, Linux, FreeBSD.</p>
+				<div class="semilayer">
+					<div class="text">
+						ЗАПРОСИТЕ РАСЧЕТ</br>
+СТОИМОСТИ ИТ-ОБСЛУЖИВАНИЯ
+					</div><!--text -->
+					<div class="form">
 
-                    <p>Мы поможем привести в порядок сервера 1С, базы данных, почтовые сервера, программное обеспечение, увеличим безопасность и взломостойкость ваших серверов, настроим удаленный доступ, поможем с подключением с любого устройства, создадим резервные копии данных, что даст вам уверенность в завтрашнем дне. В случае любого непредвиденного события, ваши данные не будут утеряны. Сисадмин в максимально краткие сроки восстановит доступ к информации, что даст вам преимущество в ведении бизнес-процессов.</p>
-                </div>
-            </div>
+					</div><!-- form-->
+				</div><!-- semilayer-->
 
-            <div class="services-block-item">
-                <div class="icon" style="background-image: url('img/icon-round-support.png')"></div>
-                <h3>Обслуживание компьютеров и офисной техники</h3>
-                <p>Осуществляет блочный ремонт компьютеров, ремонт офисной техники и заправку картриджей. На время ремонта предоставляет подмену. <a class="readmore" href="#cat-2" data-cat="true">></a></p>
-                <div class="hide" id="cat-2">
-                    <p>Сломался компьютер? Не печатает принтер? Не беда! Наш приходящий системный администратор решит проблему в кратчайшие сроки. Мы осуществляем ремонт компьютеров и оргтехники, наш системный администратор может заправить картридж, заменить сломавшийся блок, а также предоставить подменный аппарат на время ремонта.</p>
+		</div><!-- main_img-->
+		
 
-                    <p>Только наш специалист &mdash; профессионал, способный решить любую поставленную задачу. В рамках пакета услуг, представляемого нашим системный администратором, вы можете не переживать за работоспособность вашей компьютерной техники.</p>
+	</main><!-- .content -->
 
-                    <p>В случае любой поломки, вам нужно лишь связаться удобным для вас способом с нашими специалистами и ваша проблема станет нашей. Более того, все ваши трудности мы с легкостью превратим в ваши конкурентные преимущества. Отныне проблем с оргтехникой у вас больше нет!</p>
-                </div>
-            </div>
+</div><!-- .wrapper -->
 
-            <div class="services-block-item">
-                <div class="icon" style="background-image: url('img/icon-round-backups.png')"></div>
-                <h3>Резервное копирование данных</h3>
-                <p>Выполняет ежедневное резервное копирование данных и раз в месяц передает Вам полную резервную копию на внешнем носителе. <a class="readmore" href="#cat-3" data-cat="true">></a></p>
-                <div class="hide" id="cat-3">
-                    <p>Для гарантированного сохранения всех ваших данных, наш приходящий системный администратор проводит ежедневное резервное копирование. То есть ваша информация в зашифрованном виде сохраняется в облачном сервисе, а раз в месяц представитель нашей компании передает вам съемный носитель с актуальной копией всех данных.</p>
-
-                    <p>Для чего это нужно? Любое физическое повреждение данных может не только приостановить все бизнес-процессы в компании, но и просто-напросто уничтожить их. Пожар, наводнение, взрыв, атака конкурентов на сервера компании… Даже простой перепад напряжения в электрической сети может стать причиной потери данных. Спросите у вашего бухгалтера, что будет, если его бухгалтерская база «накроется». Он вам четко и в красках объяснит, для чего вам необходим наш приходящий системный администратор.</p>
-
-                    <p>После заключения договора, вы можете не беспокоиться ни о чем! Кроме того, мы гарантирует конфиденциальность и сохранность ваших данных. Наш удаленный сисадмин предотвратит возможные убытки вашего бизнеса.</p>
-                </div>
-            </div>
-
-            <div class="services-block-item">
-                <div class="icon" style="background-image: url('img/icon-round-cloud.png')"></div>
-                <h3>Организация удаленного доступа</h3>
-                <p>Организует удаленный доступ, настроит удаленное подключение на Ваших домашних компьютерах и мобильных устройствах. <a class="readmore" href="#cat-4" data-cat="true">></a></p>
-                <div class="hide" id="cat-4">
-                    <p>Мир не стоит на месте. Современные технологии позволяют работать из любой точки земного шара. Лежите вы на пляже в Таиланде, или сидите в московском офисе, благодаря нашему приходящему системному администратору, ваш доступ к рабочим программам и материалам будет осуществляться из любого места.</p>
-                    <p>Ключевой клиент просит срочно выставить счет, а вы сегодня с температурой лежите в постели? Не проблема! Вам нужен компьютер с выходом в интернет, все остальное специалист сделает самостоятельно. Печать, сканирование, электронная почта, 1С &mdash; все будет работать удаленно. Ваш офис для вас «открыт» 24 часа в сутки, семь дней в неделю. Ни расстояния, ни снегопады, ни наводнения не помешают вам и вашему бизнесу функционировать на 101%. Остальное зависит от вас, потому что все, что для этого нужно, наш приходящий администратор сделает в первый же свой день работы с вашей компанией.</p>
-                </div>
-            </div>
-
-            <div class="services-block-item">
-                <div class="icon" style="background-image: url('img/icon-round-website.png')"></div>
-                <h3>Сопровождение веб-сайта</h3>
-                <p>Обновляет контент на Вашем сайте: добавляет новости, фотографии, статьи. <a class="readmore" href="#cat-5" data-cat="true">></a></p>
-                <div class="hide" id="cat-5">
-                    <p>Большинство компаний создают сайт, но зачастую не занимаются его поддержкой, не прибегают к помощи удаленных системных администраторов. Некоторые даже задаются вопросом: «А зачем это нужно, ведь сайт уже работает, люди же на него заходят!». Но это не совсем верно. Для повышения посещаемости вашего корпоративного портала вам просто необходимо сопровождение веб-сайта. Регулярное обновление страниц вашего сайта повысит посещаемость и поднимет его в поисковых системах.</p>
-
-                    <p>Более того, вам нужен именно специалист нашей компании, потому что наш приходящий администратор будет регулярно обновлять контент на вашем сайте, будь то новые позиции в прайс-листе, скидки и акции, новости, или даже фотоотчет с последнего мероприятия. Вы просто говорите, пишите или показываете на пальцах, что вам нужно, а представитель нашей компании максимально оперативно решает поставленную задачу.</p>
-
-                    <p>Другие компании для этого вводят в штат единицу SMM-менеджера или заказывают подобные услуги на стороне. Мы же предлагаем такой экономичный и выгодный для вас вариант, как сделать регулярное обновление вашего сайта частью работы приходящего  администратора. Стоимость услуг системного администратора при этом не увеличивается. Вы просто выбираете пакет услуг, наиболее соответствующий вашему бизнесу, дальше за дело беремся мы.</p>
-
-                    <p>Даже если наш администратор будет с утра до вечера размещать вашу информацию на сайте, мы будем только рады, ведь любой член нашей команды – профессионал своего дела. Дополнительных счетов за такие услуги не будет, обещаем!</p>
-                </div>
-            </div>
-
-            <div class="services-block-item">
-                <div class="icon" style="background-image: url('img/icon-round-credit.png')"></div>
-                <h3>Закупка компьютерного оборудования</h3>
-                <p>Ищет лучшее предложение, предоставляет Вам счет на оплату, курирует доставку и прием товара. <a class="readmore" href="#cat-6" data-cat="true">></a></p>
-                <div class="hide" id="cat-6">
-                    <p>Нужен новый компьютер, но не знаете какой выбрать, сколько это стоит или на чем можно сэкономить? Вам поможет наш приходящий системный администратор. Зная ваши потребности, наш специалист быстро и четко представит вам требуемую конфигурацию оборудования, оптимизированного под ваши потребности. Более того, Наш системный администратор поможет вам не только подобрать, но и заказать технику. Также мы возьмем на себя все переговоры, а также доставку, и установку оборудования.</p>
-
-                    <p>Компетенции нашего приходящего системного администратора не ограничиваются только лишь компьютерами. Офисная техника любой сложности, от принтеров до печатных станков, от мониторов до профессиональных проекционных систем. Для профессионала нет ограничений. Любая техника, требующаяся для вашего бизнеса, будет закуплена по минимальной цене и в кратчайшие сроки.</p>
-
-                    <p>И, конечно же, наш приходящий системный администратор проанализирует машинные ресурсы вашей компании и даст компетентную оценку ситуации, прогноз по обновлению техники и примерный бюджет процедуры.</p>
-                </div>
-            </div>
-
-            <div class="services-block-item">
-                <div class="icon" style="background-image: url('img/icon-round-homepc.png')"></div>
-                <h3>Обслуживание домашних компьютеров руководства</h3>
-                <p>Решает проблемы на домашних компьютерах Вашего руководства, настраивает роутеры и принтеры. <a class="readmore" href="#cat-7" data-cat="true">></a></p>
-                <div class="hide" id="cat-7">
-                    <p>Еще одним плюсом на стороне заключения договора с приходящим системным администратором является предложение по обслуживанию домашней техники руководства компании.</p>
-
-                    <p>Часто бывает так, что в офисе все компьютеры принтеры и копиры постоянно обслуживаются системным администратором, а дома у руководителя можно рисунки на мониторе рисовать. Пальцем. И часто руководитель даже не думает, что услуги сисадмина могут включать обслуживание техники и дома.</p>
-
-                    <p>Благодаря нам, без дополнительной оплаты услуг, компьютерная техника дома у руководителя будет обслужена, настроена и всегда готова к работе.</p>
-
-                    <p>В любое время дня и ночи наш приходящий системный администратор окажет любую помощь, как дома, так и в офисе. Нам не важно, чей компьютер, обслуживание любой техники будет произведено профессионально, быстро и в кратчайшие сроки.</p>
-                </div>
-            </div>
-
-            <div class="services-block-item">
-                <div class="icon" style="background-image: url('img/icon-round-hosting.png')"></div>
-                <h3>Сопровождение внешних услуг: интернет, хостинг, телефония</h3>
-                <p>Курирует договоры, ведет список учетных записей и доступов на хостинге, контролирует своевременную оплату услуг. <a class="readmore" href="#cat-8" data-cat="true">></a></p>
-                <div class="hide" id="cat-8">
-                    <p>После заключения договора, приходящий сисадмин готов полностью заменить вашего штатного специалиста. Он возьмет на себя ведение и пролонгацию договоров телефонии и интернета, хостинга и доменного имени. Вам больше не нужно помнить, когда произвести очередной платеж. Наш удаленный системный администратор возьмет все вопросы под свой контроль. Он вовремя подготовит счет, сообщит об оплате, продлит доменное имя и хостинг.</p>
-
-                    <p>Если раньше под эти задачи в вашей компании была создана штатная единица, то сейчас эти задачи выполняет наш администратор. Ему не нужно ничего доплачивать, сопровождение внешних услуг уже входит в пакет обслуживания. Вам это ничего не будет стоить, а экономия на зарплате сотрудника, не сомневаемся, полностью покрывает расходы на договор с нашей компанией.</p>
-                </div>
-            </div>
-
-            <div class="services-block-item">
-                <div class="icon" style="background-image: url('img/icon-round-persons.png')"></div>
-                <h3>Выполнение поручений руководства</h3>
-                <p>Выполняет прямые поручения Вашего руководства по компьютерным вопросам и вопросам смежных областей. <a class="readmore" href="#cat-9" data-cat="true">></a></p>
-                <div class="hide" id="cat-9">
-                    <p>Любые просьбы руководства для нас закон. Все компьютерные и смежные вопросы отныне наша проблема. И поверьте, мы с легкостью их решаем. Нужен новый смартфон – только скажите. Приходящий системный администратор нашей компании – профессионал широкого профиля – ему все нипочем!</p>
-
-                    <p>Да, наш сисадмин не поедет отвозить в банк документы. Но вот отсканировать и отправить по электронной почте – пожалуйста! Объяснить новому сотруднику принципы работы удаленного доступа, настроить почтовый клиент, доступ к 1С и так далее – всегда готовы! Организовать с нуля новое рабочее место – только скажите! Мы проведем сеть, закупим оборудование, мебель, оргтехнику. Наш приходящий системный администратор сделает все, что требуется для успешной работы и расширения вашего бизнеса!</p>
-
-                    <p>Все что вам нужно, это заключить договор, удовлетворяющий вашим потребностям. Остальное – задача нашего системного администратора. Просто забудьте о своих проблемах с компьютерами и оргтехникой, занимайтесь прямыми задачами на благо бизнеса.</p>
-                </div>
-            </div>
-        </div><!-- /.services-block-wrapper -->
-    </div><!-- /.wrapper -->
-</div><!-- /.services-block -->
-
-<!--div class="consult-block">
-    <div class="phone-hand" data-scroll-animate></div>
-
-    <div class="wrapper">
-        <a name="консультация"></a>
-        <a name="консультация_системного_администратора">
-            <h2>
-                Консультируем <span>бесплатно</span>
-            </h2>
-        </a>
-        <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class="consult-block-form" data-form-validate="true" id="consult-form" data-scroll-animate="fadeIn">
-            <h2>Получить консультацию</h2>
-            <h3>Системного администратора</h3>
-
-            <input type="hidden" name="oid" value="00Db0000000e4RT">
-            <input type="hidden" name="retURL" value="http://xn----8sbancubdaf0bnelbqmcpuc4cyfxg.xn--p1ai/?success=y">
-            <input type="hidden" id="lead_source" name="lead_source" value="приходящий-администратор.рф" />
-
-            <input style="margin-left: 0" type="text" name="first_name" placeholder="Имя" required />
-            <input type="email" name="email" placeholder="Электронная почта" required />
-
-            <textarea name="description" cols="30" rows="10" placeholder="Описание проблемы - не обязательно, мы можем уточнить детали по телефону."></textarea>
-
-            <input type="submit" class="button orange" value="Отправить" data-reachLeadClick />
-        </form>
-
-        <div class="consult-block-desc" data-scroll-animate="fadeIn">
-            <h3>Если у Вас есть проблема:</h3>
-            <p>
-                компьютер не загружается,<br>
-                сервер не отвечает, <br>
-                интернет не работает, почта не <br> ходит или что-то еще
-            </p>
-            <h3>Мы свяжемся с Вами <br>и поможем</h3>
-            <p>просто оставьте свой телефон <br> или E-mail</p>
-
-            <span class="phone">+7 (495) 280-00-50</span>
-        </div>
-    </div--><!-- /.wrapper -->
-<!--/div--><!-- /.consult-block -->
-
-<div class="why-profit-block">
-    <div class="shadow-left"></div>
-    <div class="shadow-right"></div>
-    <div class="wrapper">
-        <h2>
-            Почему <span>с нами выгодно</span> работать
-        </h2>
-
-        <div class="why-profit-block-wrap">
-            <div class="why-profit-block-item" data-scroll-animate="fadeIn">
-                <div class="icon">
-                    <img src="img/icon-big-cache.png" alt="" />
-                </div>
-                <h3>Цена</h3>
-                <p>Стоимость услуг приходящего системного администратора всегда ниже зарплаты штатного</p>
-            </div>
-
-            <div class="why-profit-block-item" data-scroll-animate="fadeIn">
-                <div class="icon">
-                    <img src="img/icon-big-24h.png" alt="" />
-                </div>
-                <h3>Сервис</h3>
-                <p>Наш приходящий системный администратор оказывает удаленную поддержку круглосуточно</p>
-            </div>
-
-            <div class="why-profit-block-item" data-scroll-animate="fadeIn">
-                <div class="icon">
-                    <img src="img/icon-big-warantee.png" alt="" />
-                </div>
-                <h3>Гарантия</h3>
-                <p>
-                    Выезд – 2 часа <br>
-                    Ответ на письмо – 1 час<br>
-                    Удаленное подключение – 30 мин<br>
-                    Телефонный звонок – 15 мин
-                </p>
-            </div>
-
-            <div class="why-profit-block-item" data-scroll-animate="fadeIn">
-                <div class="icon">
-                    <img src="img/icon-big-person.png" alt="" />
-                </div>
-                <h3>Опыт</h3>
-                <p>
-                    Не учатся,<br>
-                    не переделывают <br>
-                    по несколько раз. <br>
-                    Только опытные и <br>
-                    квалифицированные специалисты
-                </p>
-            </div>
-        </div><!-- /.why-profit-block-wrapper -->
-    </div><!-- /.wrapper -->
-</div><!-- /.why-profit-block -->
-
-<div class="tarifs-block">
-    <div class="wrapper">
-        <a name="стоимость"></a>
-        <a name="стоимость_услуг_системного_администратора">
-            <h2>
-                <span>Сколько это стоит?</span><br>
-                Не бесплатно, но это того стоит!
-            </h2>
-        </a>
-
-        <div class="tarifs-block-wrapper">
-            <div class="tarifs-block-item" data-scroll-animate="fadeIn">
-                <h3>Запуск</h3>
-                <div class="tarifs-block-item-price">
-                    6 000 <br>
-                    <span>рублей в месяц</span>
-                </div>
-                <div class="tarifs-block-item-desc">
-                    Выбирают <br>небольшие компании и <br>стартапы
-                </div>
-                <div class="tarifs-block-item-text">
-                    <p>
-                        <b>Один офис в пределах МКАД <br>
-                        До 5 компьютеров<br>
-                        1 сервер</b>
-                    </p>
-                    <p>
-                        <!--b>1 плановый</b> выезд в месяц <br-->
-           
-                    </p>
-                    <p>
-                        Удаленная поддержка <br>
-                        <b>не ограниченно</b>
-                    </p>
-                    <p>
-                        Количество аварийных выездов  <br>
-                        <b>не ограничено</b>
-                    </p>
-                </div>
-                <a data-modal="#callbackForm" href="#callbackForm" data-reachLinkCallback class="button dark-orange">Заказать</a>
-            </div><!-- /.tarifs-block-item -->
-
-            <div class="tarifs-block-item center" data-scroll-animate="fadeIn">
-                <h3>Стандарт</h3>
-                <div class="tarifs-block-item-price">
-                    9 000 <br>
-                    <span>рублей в месяц</span>
-                </div>
-                <div class="tarifs-block-item-desc">
-                    Выбирают <br>большинство <br>компаний
-                </div>
-                <div class="tarifs-block-item-text">
-                    <p>
-                        <b>Два офиса в пределах МКАД <br>
-                        До 10 компьютеров <br>
-                        До 2 серверов</b>
-                    </p>
-                    <p>
-                        <!--b>2 плановых</b> выезда в месяц <br-->
-                    </p>
-                    <p>
-                        Удаленная поддержка <br>
-                        <b>не ограниченно</b>
-                    </p>
-                    <p>
-                        Количество аварийных выездов  <br>
-                        <b>не ограничено</b>
-                    </p>
-                </div>
-                <a data-modal="#callbackForm" href="#callbackForm" data-reachLinkCallback class="button dark-orange">Заказать</a>
-            </div><!-- /.tarifs-block-item -->
-
-            <div class="tarifs-block-item" data-scroll-animate="fadeIn">
-                <h3>Успех</h3>
-                <div class="tarifs-block-item-price">
-                    12 000 <br>
-                    <span>рублей в месяц</span>
-                </div>
-                <div class="tarifs-block-item-desc">
-                    Выбирают <br>компании с двумя офисами<br> или складом
-                </div>
-                <div class="tarifs-block-item-text">
-                    <p>
-                        <b>Три офиса в пределах МКАД <br>
-                        До 15 компьютеров <br>
-                        До 3 серверов</b>
-                    </p>
-                    <p>
-                        <!--b>4 плановых</b> выезда в месяц <br-->
-                    </p>
-                    <p>
-                        Удаленная поддержка <br>
-                        <b>не ограниченно</b>
-                    </p>
-                    <p>
-                        Количество аварийных выездов <br>
-                        <b>не ограничено</b>
-                    </p>
-                </div>
-                <a data-modal="#callbackForm" href="#callbackForm" data-reachLinkCallback class="button dark-orange">Заказать</a>
-            </div><!-- /.tarifs-block-item -->
-        </div><!-- /.tarifs-block-wrapper -->
-    </div><!-- /.wrapper -->
-</div><!-- /.why-profit-block -->
-
-<div class="phone-specialist" data-scroll-animate="fadeIn">
-    <h2>Запросите расчет</h2>
-    <h3>Стоимости ИТ-обслуживания</h3>
-
-    <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" data-form-validate="true">
-        <input type="hidden" name="oid" value="00Db0000000e4RT">
-        <input type="hidden" name="retURL" value="http://xn----8sbancubdaf0bnelbqmcpuc4cyfxg.xn--p1ai/?success=y">
-        <input type="hidden" id="lead_source" name="lead_source" value="приходящий-администратор.рф" />
-
-        <input class="icon-person" type="text" name="first_name" required placeholder="Имя" />
-        <input class="icon-phone" data-masked-input="+7 (999) 999-99-99" type="text" name="mobile" required placeholder="Телефон" />
-        <input class="icon-email" type="email" name="email" required placeholder="Электронная почта" />
-        <input type="hidden" name="description"/>
-        <input type="submit" value="Отправить" class="button" data-reachLeadClick />
-    </form>
-</div>
-<div id="map_canvas" class="maps-block" data-scroll-animate="fadeIn"></div>
-
-<div style="display: none;">
-    <div class="box-modal" id="callbackForm">
-        <div class="arcticmodal-close"><i class="fa fa-times"></i></div>
-        <h3>Заказать звонок</h3>
-        <p>заполните форму и мы обязательно свяжемся с вами</p>
-
-        <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" data-form-validate="true">
-            <input type="hidden" name="oid" value="00Db0000000e4RT">
-            <input type="hidden" name="retURL" value="http://xn----8sbancubdaf0bnelbqmcpuc4cyfxg.xn--p1ai/?success=y">
-            <input type="hidden" id="lead_source" name="lead_source" value="приходящий-администратор.рф" />
-
-            <input class="icon-person" type="text" name="first_name" required placeholder="Имя" />
-            <input class="icon-phone" data-masked-input="+7 (999) 999-99-99" type="text" name="mobile" required placeholder="Телефон" />
-
-            <input type="hidden" name="description"/>
-            <input type="submit" value="Оставить заявку" class="button orange" data-reachCallbackClick />
-        </form>
-    </div>
-
-    <div class="box-modal" id="thankYouMessage">
-        <div class="arcticmodal-close"><i class="fa fa-times"></i></div>
-        <h3>Благодарим вас!</h3>
-        <br>
-        <p></p>
-        <p style="text-align: center"><input type="button" style="margin: 0 auto;" class="button orange" value="OK" onclick="$('#thankYouMessage').arcticmodal('close');" /></p>
-    </div>
-</div>
-
-<footer>
-    <div class="wrapper">
-        <div class="logo">
-            <a href="#"><img src="img/logo-white.png" width="418" height="56" alt="Приходящий-Администратор.рф"></a>
-        </div>
-
-        <div class="quick-links">
-            <a href="#услуги" data-scroll-to>Услуги</a>
-            <a href="#стоимость" data-scroll-to>Стоимость</a>
-            <a href="#консультация" data-scroll-to>Задать вопрос</a>
-        </div>
-
-        <div class="contacts-block">
-            <div class="contacts-block-phone">
-                +7 (495) 280-00-50
-            </div>
-            <div class="contacts-block-callback">
-                <a data-modal="#callbackForm" href="#callbackForm" data-reachLinkCallback><span>заказать звонок</span></a>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<div class="fucking-maps" id="map_canvas">
-</div>
-
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-<script src="http://maps.google.com/maps/api/js?v=3.5&amp;sensor=false"></script>
-<script src="js/jquery.hoverIntent.minified.js"></script>
-<script src="js/infobox.js"></script>
-<script src="js/jquery.scrollTo.min.js"></script>
-<script src="js/jquery.jcarousel.min.js"></script>
-<script src="js/jquery.maskedinput.min.js"></script>
-<script src="js/jquery.placeholder.js"></script>
-<script src="js/jquery.validate.min.js"></script>
-<script src="js/jquery.arcticmodal-0.3/jquery.arcticmodal-0.3.min.js"></script>
-<script src="js/remove-me.js"></script>
-<script src="js/scripts.js"></script>
-
-
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-(function (d, w, c) {
-    (w[c] = w[c] || []).push(function() {
-        try {
-            w.yaCounter24161506 = new Ya.Metrika({id:24161506,
-                    webvisor:true,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true});
-        } catch(e) { }
-    });
-
-    var n = d.getElementsByTagName("script")[0],
-        s = d.createElement("script"),
-        f = function () { n.parentNode.insertBefore(s, n); };
-    s.type = "text/javascript";
-    s.async = true;
-    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
-
-    if (w.opera == "[object Opera]") {
-        d.addEventListener("DOMContentLoaded", f, false);
-    } else { f(); }
-})(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="//mc.yandex.ru/watch/24161506" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-
-<!-- Google Analytics -->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-45393793-4', 'приходящий-администратор.рф');
-ga('require', 'displayfeatures');
-ga('send', 'pageview');
-</script>
-<!-- /Google Analytics -->
-
-<!-- UpToLike counter -->
-<script async="async" src="https://w.uptolike.com/widgets/v1/zp.js?pid=1246439" type="text/javascript"></script>
-<!-- UpToLike counter -->
-
-<!-- BEGIN JIVOSITE CODE {literal} -->
-<script type='text/javascript'>
-(function(){ var widget_id = '140644';
-var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();</script>
-<!-- END JIVOSITE CODE -->
-
-<!-- Rating@Mail.ru counter -->
-<script type="text/javascript">
-var _tmr = _tmr || [];
-_tmr.push({id: "2536444", type: "pageView", start: (new Date()).getTime()});
-(function (d, w) {
-   var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true;
-   ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
-   var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
-   if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
-})(document, window);
-</script><noscript><div style="position:absolute;left:-10000px;">
-<img src="//top-fwz1.mail.ru/counter?id=2536444;js=na" style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" />
-</div></noscript>
-<!-- Rating@Mail.ru counter -->
+<footer class="footer">
+	<strong>Footer:</strong> Mus elit Morbi mus enim lacus at quis Nam eget morbi. Et semper urna urna non at cursus dolor vestibulum neque enim. Tellus interdum at laoreet laoreet lacinia lacinia sed Quisque justo quis. Hendrerit scelerisque lorem elit orci tempor tincidunt enim Phasellus dignissim tincidunt. Nunc vel et Sed nisl Vestibulum odio montes Aliquam volutpat pellentesque. Ut pede sagittis et quis nunc gravida porttitor ligula.
+</footer><!-- .footer -->
 
 </body>
 </html>
