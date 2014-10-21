@@ -1,0 +1,288 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+
+
+
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-image: url(img/);
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;
+}
+.wrapper {
+	min-width: 980px;
+	max-width: 1000px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+@font-face {
+    font-family: georgia; /* Гарнитура шрифта */
+    src: url(944555.ttf); /* Путь к файлу со шрифтом */
+   }
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 120px;
+
+	
+}
+.logo {
+	display: inline-block;
+	margin-top: 0px;
+	margin-left: 0px;
+	left: 1.9%;
+top: 24px;
+min-width: 237px;
+min-height: 75px;
+position: relative;
+}
+.menu-wrapper {
+
+ 
+    display: table;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+visibility: visible;
+left: 30%;
+top: -34px;
+width: 50%;
+min-height: 38px;
+position: relative;
+
+}
+
+.menu {
+    display: table-row;
+}
+.menu li {
+    display: table-cell;
+    float: none;
+    width: auto;
+}
+.menu li a {
+    display: block;
+    padding: 8px 15px;
+
+font: normal normal normal 16px/1.4em din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+    font-size: 1.2em;
+    color: rgb(9, 122, 170);
+    text-decoration: none;
+    text-align: center;
+    
+}
+.menu li a:hover {
+    color: rgb(242, 51, 51);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.aaaaa {
+	
+width: 120px;
+right:-82%;
+margin:0;
+padding: 0;
+top: -100%;
+height: 80px;
+position: relative;
+background-color:  rgb(242, 51, 51);
+}
+.bbbbb {
+	width: 120px;
+	right:-82%;
+margin:0;
+padding: 0;
+top: -100%;
+height: 60px;
+position: relative;
+color:  rgb(242, 51, 51);
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 25px 60px 0 60px;
+border-color: rgb(242, 51, 51) transparent transparent transparent;
+}
+.aaaaa a{
+    display: block;
+    padding: 50px 15px;
+
+font: normal normal normal 16px/1.4em  sans-serif;
+    font-size: 1.8em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.aaaaa a:hover{
+
+color: rgb(9, 122, 170);
+}
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+	padding: 0 0 100px;
+}
+.main_img img {
+
+	
+margin-top: 0px;
+margin-left: 0px;
+width: 100%;
+height: 350px;
+
+}
+.main_img {
+	position: relative;
+}
+.semilayer {
+	position: absolute;
+	 top: 0;
+        right: 0;
+     /* Поля вокруг текста */
+    background: rgb(9, 122, 170); /* Цвет фона */
+    margin: 0 auto; /* Выравниваем слой по центру */
+    width: 30%; /* Ширина слоя */
+    height: 350px;
+    opacity: 0.47; /* Значение прозрачности */
+    filter: alpha(Opacity=70); /* Прозрачность в IE */
+   }
+.form{
+visibility: visible;
+left:0;
+padding-left: 5%;
+padding-right: 5%;
+top: 104px;
+min-width: 272px;
+min-height: 180px;
+position: absolute;
+}
+.garant  {
+    
+	font-size: 40px;
+	font: normal  georgia;
+	color: rgb(9, 122, 170);
+	text-align: center;
+
+
+margin: 0px;
+line-height: normal;
+letter-spacing: normal;
+    font-family: georgia;
+}
+.conteiner {
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+.g1{
+	background-color: rgb(9, 122, 170);
+	width: 350px;
+	height:120px;
+	position: absolute;
+	left: 12%;
+	top: 30px;
+	 background-image: url('img/1.png'); /* подставьте сюда адрес своего спрайта */
+    background-repeat: no-repeat;
+    background-position: 45px 30px; 
+}
+.g2{
+	background-color: rgb(9, 122, 170);
+	width: 350px;
+	height:120px;
+	position: absolute;
+	right: 12%;
+	top: 30px;
+	 background-image: url('img/2.png'); /* подставьте сюда адрес своего спрайта */
+    background-repeat: no-repeat;
+    background-position: 45px 30px; 
+}
+.g3{
+	background-color: rgb(9, 122, 170);
+	width: 350px;
+	height:120px;
+	position: absolute;
+	
+	left: 12%;
+	bottom: 20%;
+	background-image: url('img/3.png'); /* подставьте сюда адрес своего спрайта */
+    background-repeat: no-repeat;
+    background-position: 45px 30px; 
+}
+.g4{
+	background-color: rgb(9, 122, 170);
+	width: 350px;
+	height:120px;
+	position: absolute;
+	right: 12%;
+	bottom:20% ;
+	background-image: url('img/4.png'); /* подставьте сюда адрес своего спрайта */
+    background-repeat: no-repeat;
+    background-position: 45px 30px; 
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	margin: -100px auto 0;
+	min-width: 980px;
+	max-width: 1000px;
+	height: 100px;
+	background: #BFF08E;
+	position: relative;
+}
