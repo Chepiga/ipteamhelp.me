@@ -225,55 +225,155 @@ line-height: normal;
 letter-spacing: normal;
     font-family: georgia;
 }
-.conteiner {
-	width: 100%;
-	height: 400px;
-	position: relative;
+.warranty-block {
+	
+
+
+width: 100%;
+margin: 0 auto;
+
+content: "";
+display: table;
+clear: both;
+
+background: #fff;
+padding-top: 40px;
+padding-bottom: 40px;
+text-align: center;
+}
+.row {
+	display: inline-block;
+	
 }
 .g1{
 	background-color: rgb(9, 122, 170);
 	width: 350px;
 	height:120px;
-	position: absolute;
-	left: 12%;
-	top: 30px;
+	position: relative;
+	
 	 background-image: url('img/1.png'); /* подставьте сюда адрес своего спрайта */
     background-repeat: no-repeat;
     background-position: 45px 30px; 
+
+
+float: left;
+
+
+margin-left: 15px;
+margin-right: 15px;
+
+margin-bottom: 30px;
+font-size: 24px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+padding-left: 130px;
+padding-top: 15px;
+
 }
 .g2{
+	float: left;
 	background-color: rgb(9, 122, 170);
 	width: 350px;
 	height:120px;
-	position: absolute;
-	right: 12%;
-	top: 30px;
+	position: relative;
+	
 	 background-image: url('img/2.png'); /* подставьте сюда адрес своего спрайта */
     background-repeat: no-repeat;
     background-position: 45px 30px; 
+
+    float: left;
+margin-right: 15px;
+
+margin-left: 15px;
+
+
+margin-bottom: 30px;
+font-size: 24px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+padding-left: 130px;
+padding-top: 15px;
 }
 .g3{
 	background-color: rgb(9, 122, 170);
 	width: 350px;
 	height:120px;
-	position: absolute;
+position: relative;
+	margin-right: 15px;
 	
-	left: 12%;
-	bottom: 20%;
 	background-image: url('img/3.png'); /* подставьте сюда адрес своего спрайта */
     background-repeat: no-repeat;
     background-position: 45px 30px; 
+
+    float: left;
+
+
+margin-left: 15px;
+
+
+margin-bottom: 30px;
+font-size: 24px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+padding-left: 130px;
+
 }
 .g4{
 	background-color: rgb(9, 122, 170);
 	width: 350px;
 	height:120px;
-	position: absolute;
-	right: 12%;
-	bottom:20% ;
+position: relative;
+	margin-right: 15px;
 	background-image: url('img/4.png'); /* подставьте сюда адрес своего спрайта */
     background-repeat: no-repeat;
     background-position: 45px 30px; 
+
+    float: left;
+
+
+margin-left: 15px;
+
+margin-bottom: 30px;
+font-size: 24px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+padding-left: 130px;
+
+}
+.clock {
+
+	visibility: visible;
+left: 148px;
+top: 30px;
+width: 176px;
+min-height: 5px;
+position: absolute
+
+}
+.clock p {
+color: white;
+font: normal  georgia;
+	font-size: 14px;
+	text-align: center;
+
+
+
+line-height: normal;
+letter-spacing: normal;
+    font-family: georgia;
+}
+.clock span {
+color: white;
+font: normal  georgia;
+text-align: center;
+line-height: normal;
+letter-spacing: normal;
+    font-family: georgia;
+    font-size: 36px;
 }
 
 /* Footer
