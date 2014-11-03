@@ -348,32 +348,44 @@ padding-left: 130px;
 
 	visibility: visible;
 left: 148px;
-top: 30px;
+top: 10px;
 width: 176px;
-min-height: 5px;
+min-height: 4px;
 position: absolute
 
 }
 .clock p {
 color: white;
-font: normal  georgia;
+/*font: normal  georgia;*/
 	font-size: 14px;
 	text-align: center;
 
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+
+             0px 8px 13px rgba(0,0,0,0.1),
+
+             0px 18px 23px rgba(0,0,0,0.1);
+
 
 
 line-height: normal;
 letter-spacing: normal;
-    font-family: georgia;
+    /*font-family: georgia;*/
 }
 .clock span {
 color: white;
-font: normal  georgia;
+/*font: normal  georgia;*/
 text-align: center;
 line-height: normal;
 letter-spacing: normal;
-    font-family: georgia;
+   /* font-family: georgia;*/
     font-size: 36px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+
+             0px 8px 13px rgba(0,0,0,0.1),
+
+             0px 18px 23px rgba(0,0,0,0.1);
+
 }
 
 
